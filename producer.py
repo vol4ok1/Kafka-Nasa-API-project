@@ -5,8 +5,6 @@ from kafka import KafkaProducer
 import requests
 import json
 
-#topic = 'edvin_topic' # doesn't make sense now 
-#message = request_nasa_data()
 
 
 def send_message(topic, message):
@@ -19,13 +17,3 @@ def send_message(topic, message):
 
 
 #send_message()
-
-
-
-#1 "Leave producer"
-#2 nasa api change topic to correct (per documentation)
-#3 Create topics on crypton.
-#4 ###How to console consumer - collects
-#5 Start nasa api client (it produces/fetches records) <
-#6 Check output in console consumer
-
